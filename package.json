@@ -4,7 +4,8 @@
   "description": "\"Browser based game\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/lioness1741/ajs-homeworks-workspace/issues"
   },
-  "homepage": "https://github.com/lioness1741/ajs-homeworks-workspace#readme"
+  "homepage": "https://github.com/lioness1741/ajs-homeworks-workspace#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "eslint": "^8.41.0"
+  },
+  "dependencies": {
+    "core-js": "^3.30.2"
+  }
 }
